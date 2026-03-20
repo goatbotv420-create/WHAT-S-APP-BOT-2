@@ -18,8 +18,8 @@ module.exports = {
             const chatId = extra.from;
             
             // GitHub repository URL
-            const repoUrl = 'https://github.com/mruniquehacker/KnightBot-Mini';
-            const apiUrl = 'https://api.github.com/repos/mruniquehacker/KnightBot-Mini';
+            const repoUrl = 'https://github.com/goatbotv420-create/WHAT-S-APP-BOT-2.git';
+            const apiUrl = 'https://github.com/goatbotv420-create/WHAT-S-APP-BOT-2.git';
             
             // Send loading message
             const loadingMsg = await extra.reply('🔍 Fetching GitHub repository information...');
