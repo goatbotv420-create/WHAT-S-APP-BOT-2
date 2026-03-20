@@ -4,12 +4,12 @@
 
 module.exports = {
     // Bot Owner Configuration
-    ownerNumber: ['91xxxxxxxxxxx','917023951514'], // Add your number without + or spaces (e.g., 919876543210)
-    ownerName: ['Knight Bot Mini', 'Professor'], // Owner names corresponding to ownerNumber array
+    ownerNumber: ['8801595360907','8801322962662'], // Add your number without + or spaces (e.g., 919876543210)
+    ownerName: ['𝚃𝙰𝙼𝙸𝙼 𝙱𝚉', '🇹 🇦 🇲 🇮 🇲   🇧 🇧 🇿 '], // Owner names corresponding to ownerNumber array
     
     // Bot Configuration
-    botName: 'Knight Bot Mini',
-    prefix: '.',
+    botName: '🆈🅾🆄🆁︎ 🅲🆁🅰🆂🅷',
+    prefix: '/',
     sessionName: 'session',
     sessionID: process.env.SESSION_ID || '',
     newsletterJid: '120363161513685998@newsletter', // Newsletter JID for menu forwarding
@@ -21,22 +21,22 @@ module.exports = {
     // Bot Behavior
     selfMode: false, // Private mode - only owner can use commands
     autoRead: false,
-    autoTyping: false,
+    autoTyping: true,
     autoBio: false,
     autoSticker: false,
-    autoReact: false,
+    autoReact: true,
     autoReactMode: 'bot', // set bot or all via cmd
-    autoDownload: false,
+    autoDownload: true,
     
     // Group Settings Defaults
     defaultGroupSettings: {
-      antilink: false,
+      antilink: true,
       antilinkAction: 'delete', // 'delete', 'kick', 'warn'
-      antitag: false,
+      antitag: true,
       antitagAction: 'delete',
       antiall: false, // Owner only - blocks all messages from non-admins
-      antiviewonce: false,
-      antibot: false,
+      antiviewonce: true,
+      antibot: true,
       anticall: false, // Anti-call feature
       antigroupmention: false, // Anti-group mention feature
       antigroupmentionAction: 'delete', // 'delete', 'kick'
@@ -44,11 +44,11 @@ module.exports = {
       welcomeMessage: '╭╼━≪•𝙽𝙴𝚆 𝙼𝙴𝙼𝙱𝙴𝚁•≫━╾╮\n┃𝚆𝙴𝙻𝙲𝙾𝙼𝙴: @user 👋\n┃Member count: #memberCount\n┃𝚃𝙸𝙼𝙴: time⏰\n╰━━━━━━━━━━━━━━━╯\n\n*@user* Welcome to *@group*! 🎉\n*Group 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽*\ngroupDesc\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ botName*',
       goodbye: false,
       goodbyeMessage: 'Goodbye @user 👋 We will never miss you!',
-      antiSpam: false,
+      antiSpam: true,
       antidelete: false,
       nsfw: false,
       detect: false,
-      chatbot: false,
+      chatbot: true,
       autosticker: false // Auto-convert images/videos to stickers
     },
     
@@ -70,7 +70,7 @@ module.exports = {
       groupOnly: '👥 This command can only be used in groups!',
       privateOnly: '💬 This command can only be used in private chat!',
       botAdminNeeded: '🤖 Bot needs to be admin to execute this command!',
-      invalidCommand: '❓ Invalid command! Type .menu for help'
+      invalidCommand: '❓ Invalid command! Type /menu for help'
     },
     
     // Timezone
@@ -81,9 +81,9 @@ module.exports = {
     
     // Social Links (optional)
     social: {
-      github: 'https://github.com/mruniquehacker',
-      instagram: 'https://instagram.com/yourusername',
-      youtube: 'http://youtube.com/@mr_unique_hacker'
+      github	: 'https://github.com/goatbotv420-create',
+      telegram : 't.me/Tamim420bbz',
+      Facebook: 'https://www.facebook.com/tamim.bbz.2025'
     }
 };
   
