@@ -19,7 +19,7 @@ const AXIOS_DEFAULTS = {
 
 module.exports = {
   name: 'song',
-  aliases: ['play', 'music', 'yta'],
+  aliases: ['play', 'music', '👍'],
   category: 'media',
   description: 'Download audio from YouTube',
   usage: '.song <song name or YouTube link>',
