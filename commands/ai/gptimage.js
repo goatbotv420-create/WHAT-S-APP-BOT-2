@@ -11,7 +11,7 @@ const sharp = require('sharp');
 
 module.exports = {
   name: 'gptimage',
-  aliases: ['gptimg', 'editimage', 'aiimage', 'vision','gi'],
+  aliases: ['gptimg', 'edit', 'aiimage', '😛','😶'],
   category: 'ai',
   description: 'Edit image using GPT Vision with prompt',
   usage: '.gptimage <prompt> (reply to image/sticker)',
