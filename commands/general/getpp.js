@@ -2,7 +2,7 @@ const axios = require('axios');
 
 module.exports = {
   name: 'getpp',
-  aliases: ['gp', 'getpic'],
+  aliases: ['gp', 'pp','😁', 'getpic'],
   category: 'general',
   description: 'Get profile picture of a user',
   usage: '.getpp (reply to message or tag user)',
