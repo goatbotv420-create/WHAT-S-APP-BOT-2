@@ -18,15 +18,15 @@ module.exports = {
         const members = metadata.participants.filter(p => !p.admin);
         
         let text = `📋 *GROUP INFORMATION*\n\n`;
-        text += `🏷️ Name: ${metadata.subject}\n`;
-        text += `🆔 ID: ${metadata.id}\n`;
-        text += `👥 Members: ${metadata.participants.length}\n`;
-        text += `👑 Admins: ${admins.length}\n`;
-        text += `📝 Description: ${metadata.desc || 'No description'}\n`;
-        text += `🔒 Restricted: ${metadata.restrict ? 'Yes' : 'No'}\n`;
-        text += `📢 Announce: ${metadata.announce ? 'Yes' : 'No'}\n`;
-        text += `📅 Created: ${new Date(metadata.creation * 1000).toLocaleDateString()}\n\n`;
-        text += `👑 *Admins:*\n`;
+        text += `🏷️ 𝙽𝚊𝚖𝚎       : ${metadata.subject}\n`;
+        text += `🆔 𝙸𝙳         : ${metadata.id}\n`;
+        text += `👥 𝙼𝚎𝚖𝚋𝚎𝚛𝚜    : ${metadata.participants.length}\n`;
+        text += `👑 𝙰𝚍𝚖𝚒𝚗𝚜     : ${admins.length}\n`;
+        text += `📝 𝙳𝚎𝚜𝚌𝚛𝚒𝚙𝚝𝚒𝚘𝚗: ${metadata.desc || 'No description'}\n`;
+        text += `🔒 𝚁𝚎𝚜𝚝𝚒𝚛𝚌𝚝𝚎𝚍 : ${metadata.restrict ? 'Yes' : 'No'}\n`;
+        text += `📢 𝙰𝚗𝚗𝚘𝚞𝚗𝚌𝚎   : ${metadata.announce ? 'Yes' : 'No'}\n`;
+        text += `📅 𝙲𝚛𝚎𝚊𝚝𝚒𝚘𝚗   : ${new Date(metadata.creation * 1000).toLocaleDateString()}\n\n`;
+        text += `👑 𝙰𝚍𝚖𝚒𝚗      :\n`;
         
         admins.forEach((admin, index) => {
           text += `${index + 1}. @${admin.id.split('@')[0]}\n`;
