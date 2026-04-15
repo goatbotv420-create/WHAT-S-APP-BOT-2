@@ -10,32 +10,6 @@
 
 </div>
 
-Knight Bot Mini is a WhatsApp MD bot built on top of the **Baileys** library.  
-It’s designed to be fast, lightweight, and easy to customize without touching the core code.  
-This project is **fully open source** — you can modify it, rebrand it, and make your **own bot** from this codebase **free of cost**, without needing any permission from our side.  
-All commands and the overall structure are written in a way that makes customization (bot image, prefix, name, features, etc.) as easy as possible.
-
----
-
-
-## ✨ Features
-
-- **Fully Open Source** – entire codebase is editable; host it anywhere (Heroku, panel, VPS, etc.).  
-- **Easy Customization via Commands** – change **bot image**, **prefix**, **channel/newsletter**, **bot name**, etc. with simple commands.  
-- **Modular Command System** – commands are organized in the `commands` folder for easy editing.  
-- **Optimized for Stability** – RAM‑optimized media handling (streaming, temp cleanup), better session handling via `sessionID` in `config.js`.  
-- **Owner Utilities** – restart, update from ZIP, and more owner‑only tools.
-
----
-
-### 1. Fork the Repository
-
-<div align="center">
-
-<a href="https://github.com/mruniquehacker/Knightbot-Mini/fork" target="_blank">
-  <img src="https://img.shields.io/badge/Fork%20Repository-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Fork on GitHub">
-</a>
-
 </div>
 
 > This creates your own copy of `Knightbot-Mini` under your GitHub account.
