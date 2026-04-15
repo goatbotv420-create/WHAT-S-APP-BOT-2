@@ -9,21 +9,3 @@
 <img src="utils/bot_image.jpg" alt="Knight Bot Mini" width="260">
 
 </div>
-
-
-- Keep the **original license and copyright** notices.  
-- **Credit the original authors**.  
-- **Not** use this for spam, abuse, or malicious purposes.
-
----
-
-## 📜 Copyright Notice
-
-Copyright (c) **2026 Professor**.  
-All rights reserved.
-
-This project contains code from various open‑source projects and AI tools, including but not limited to:
-
-- **Baileys** – MIT License  
-- Other libraries as listed in `package.json`
-
